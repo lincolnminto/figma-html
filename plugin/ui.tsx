@@ -309,7 +309,7 @@ class App extends SafeComponent {
   @observable width = "1200";
   @observable online = navigator.onLine;
   @observable useFrames = false;
-  @observable inDevMode: boolean = false;
+  @observable inDevMode: boolean = true;
   @observable devModeClickCount: number = 0;
   @observable showMoreOptions = true;
   @observable selection: (BaseNode & { data?: { [key: string]: any } })[] = [];
